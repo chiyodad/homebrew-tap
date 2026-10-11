@@ -1,6 +1,6 @@
 cask "shotpark" do
-  version "1.12.4"
-  sha256 "6ac00ed8c7e9dcf8a7784b1ebf44d2ff96d30390adb2c9c693880a5c053b14e5"
+  version "1.12.5"
+  sha256 "6770f7de967b79f87eacb8a7b0f9a33674f5f2607d697ed34b5194253aa286a5"
 
   url "https://github.com/chiyodad/shotpark/releases/download/v#{version}/ShotPark-#{version}.zip"
   name "ShotPark"
