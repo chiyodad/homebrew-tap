@@ -1,6 +1,6 @@
 cask "shotpark" do
-  version "1.9.1"
-  sha256 "74994de143a6faae75f6d847863f0fc7f8b4b6aefdf9041cfd8805069112fe8e"
+  version "1.9.2"
+  sha256 "ae2801c4df806117aa17defc8d0fa51026b09afe872d44ed66bc54b52e8478f2"
 
   url "https://github.com/chiyodad/shotpark/releases/download/v#{version}/ShotPark-#{version}.zip"
   name "ShotPark"
@@ -12,7 +12,6 @@ cask "shotpark" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on macos: ">= :ventura"
 
   app "ShotPark.app"
